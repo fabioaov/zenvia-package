@@ -8,7 +8,7 @@ This package was created in order to simplify the Zenvia API usage for those usi
 composer require fabioaov/zenvia
 ```
 
-### Setup (optional)
+### Setup
 
 Add these variables to your *.env* file. Check out [PHP dotenv](https://github.com/vlucas/phpdotenv) if you don't have one.
 ```
