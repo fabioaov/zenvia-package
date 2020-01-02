@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 class SMS
 {
     /**
-     * Function to send a SMS through Zenvia API with GuzzleHttp.
+     * Function that sends the request to Zenvia API through GuzzleHttp.
      * 
      * @param Int $phoneNumber
      * @param String $text
