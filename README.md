@@ -1,6 +1,6 @@
 # Zenvia Package
 
-This package was created in order to simplify the Zenvia API usage for those using it in multiple projects.
+This package was created in order to simplify the Zenvia API for those using it in several projects.
 
 ### Installation (with Composer)
 
@@ -18,13 +18,13 @@ ZENVIA_SENDER_NAME=
 
 ### Usage
 
-First create a SMS instance:
+Just create a SMS instance:
 ```
 use Fabioaov\Zenvia\SMS;
 
 $zenvia = new SMS();
 ```
-And then call the method:
+And call the method:
 ```
 return $zenvia->sendSms($phoneNumber, $text);
 ```
